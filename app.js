@@ -5,7 +5,7 @@ window.addEventListener('keydown', function(e) {
   console.log(audio);
 
   if (!audio) {
-    return; // stop the funtion.
+    return;
   }
 
   audio.currentTime = 0;
